@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 let somar = function () {
     let num1 = document.getElementById("num1").value
     let num2 = document.getElementById("num2").value
@@ -17,4 +15,3 @@ let mediaArit = function () {
     let media = (parseFloat(n1) + parseFloat(n2)) /2
     saida.innerHTML = media
 }
->>>>>>> Stashed changes
