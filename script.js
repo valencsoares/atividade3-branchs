@@ -16,3 +16,14 @@ let mediaArit = function () {
     let media = (parseFloat(n1) + parseFloat(n2)) /2
     saida.innerHTML = media
 }
+
+let bNum = function () {
+    let num = document.getElementById("positiveNum").value;
+    let saida = document.getElementById("saida4");
+
+    if (parseFloat(num) != -1) {
+        let n = parseFloat(num);
+        soma = parseFloat(n) + parseFloat(soma);
+    } 
+};
+
