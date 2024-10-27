@@ -33,3 +33,19 @@ let bNum = function () {
         saida.innerHTML = media;
     }
 };
+
+let tabuada = function () {
+    let num = document.getElementById("num").value
+    let aux = 0
+    let result = 0
+    let resultado = ""
+    let saida = document.getElementById("saida3")
+
+    while (aux <= 10) {
+        result = aux * parseFloat(num)
+        resultado = resultado + num + " * " + aux + " = " + result + " | "
+        aux = parseInt(aux) + 1
+    }
+
+    saida.innerHTML = resultado
+}
