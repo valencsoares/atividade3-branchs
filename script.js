@@ -17,6 +17,9 @@ let mediaArit = function () {
     saida.innerHTML = media
 }
 
+let soma = 0;
+let aux = 0;
+
 let bNum = function () {
     let num = document.getElementById("positiveNum").value;
     let saida = document.getElementById("saida4");
@@ -24,6 +27,9 @@ let bNum = function () {
     if (parseFloat(num) != -1) {
         let n = parseFloat(num);
         soma = parseFloat(n) + parseFloat(soma);
-    } 
+        aux = parseFloat(aux) + 1
+    } else {
+        let media = parseFloat(soma) / parseFloat(aux);
+        saida.innerHTML = media;
+    }
 };
-
